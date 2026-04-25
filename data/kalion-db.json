@@ -1,0 +1,262 @@
+{
+  "settings": {
+    "companyName": "Kalion Tecnologia",
+    "tagline": "Tecnologia da informação e gestão",
+    "email": "kaliontecnologia@kaliontecnologia.com.br",
+    "phone": "11970869983",
+    "whatsapp": "11970869983",
+    "linkedin": "https://www.linkedin.com/",
+    "address": "São José dos Campos - SP | Atendimento presencial e remoto",
+    "cnpj": "32.123.456/0001-90"
+  },
+  "users": [
+    {
+      "id": "user-admin",
+      "name": "Administrador Kalion",
+      "email": "admin@kalion.local",
+      "role": "Administrador",
+      "username": "admin"
+    }
+  ],
+  "clients": [
+    {
+      "name": "Cleodete",
+      "phone": "",
+      "email": "",
+      "document": "",
+      "address": "Rua Joaquim Bagunha Maldos, 680- Vila Tesouro- São José dos Campos-SP",
+      "notes": "",
+      "id": "cli-1777036186723"
+    },
+    {
+      "name": "ANA",
+      "phone": "12982090199",
+      "email": "",
+      "document": "",
+      "address": "RUA EDWARD BATISTA DO NASCIMENTO, 85- RESIDENCIAL DOM BOSCO",
+      "notes": "",
+      "id": "cli-1776966516267"
+    },
+    {
+      "id": "cli-001",
+      "name": "Clínica Bem Estar",
+      "phone": "(41) 98888-2020",
+      "email": "contato@clinicabemestar.com.br",
+      "document": "12.345.678/0001-21",
+      "address": "Curitiba - PR",
+      "notes": "Cliente com contrato de suporte e monitoramento."
+    },
+    {
+      "id": "cli-002",
+      "name": "Residencial Aurora",
+      "phone": "(41) 97777-1212",
+      "email": "sindico@aurora.com.br",
+      "document": "98.765.432/0001-00",
+      "address": "São José dos Pinhais - PR",
+      "notes": "Projeto de controle de acesso facial e CFTV."
+    }
+  ],
+  "services": [
+    {
+      "name": "Manutenção e orçanização ",
+      "category": "segurança ",
+      "price": 250,
+      "description": "",
+      "id": "ser-1777036033900"
+    },
+    {
+      "name": "Camera wi-fi",
+      "category": "segurança",
+      "price": 150,
+      "description": "instalação e configuração de camera wi-fi, sem uso de cabo CAT",
+      "id": "ser-1776972507781"
+    },
+    {
+      "id": "srv-001",
+      "name": "Desenvolvimento de Site Institucional",
+      "category": "Desenvolvimento Web",
+      "price": 3200,
+      "description": "Criação de sites institucionais premium com SEO, performance e foco em conversão."
+    },
+    {
+      "id": "srv-002",
+      "name": "Instalação de Câmeras Intelbras",
+      "category": "Segurança Eletrônica",
+      "price": 1850,
+      "description": "Projeto, instalação e configuração completa de câmeras, DVR/NVR e acesso remoto."
+    },
+    {
+      "id": "srv-003",
+      "name": "Monitoramento com Zabbix",
+      "category": "Monitoramento",
+      "price": 1450,
+      "description": "Implantação de monitoramento proativo para ativos, links, servidores e serviços."
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj-001",
+      "slug": "solartech-energia-solar",
+      "name": "SolarTech Energia Solar",
+      "category": "Sites Institucionais",
+      "excerpt": "Site institucional com geração de leads e apresentação comercial premium.",
+      "description": "Projeto desenvolvido para posicionar a marca no digital com foco em autoridade, clareza comercial e captação de oportunidades.",
+      "technologies": "Next.js, Tailwind CSS, SEO, WhatsApp API",
+      "cover": "/portfolio/project-site.svg",
+      "videoUrl": "",
+      "externalUrl": "https://example.com",
+      "featured": true
+    },
+    {
+      "id": "prj-002",
+      "slug": "orion-sistema-de-gestao",
+      "name": "Orion Sistema de Gestão",
+      "category": "Sistemas Web",
+      "excerpt": "Painel administrativo para gestão de vendas, relatórios e equipes.",
+      "description": "Sistema web sob medida com dashboards, permissões de acesso, indicadores e rotinas automatizadas para operação comercial.",
+      "technologies": "React, TypeScript, Node.js, PostgreSQL",
+      "cover": "/portfolio/project-dashboard.svg",
+      "videoUrl": "",
+      "externalUrl": "https://example.com",
+      "featured": true
+    },
+    {
+      "id": "prj-003",
+      "slug": "controle-de-acesso-facial",
+      "name": "Controle de Acesso Facial",
+      "category": "Controle de Acesso",
+      "excerpt": "Implantação corporativa com relatórios, gestão de entradas e segurança.",
+      "description": "Solução de reconhecimento facial com integração a relatórios de acesso, políticas de segurança e monitoramento centralizado.",
+      "technologies": "Intelbras, Rede Estruturada, Automação",
+      "cover": "/portfolio/project-access.svg",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "externalUrl": "",
+      "featured": true
+    }
+  ],
+  "budgets": [
+    {
+      "number": "ORC-2026-002",
+      "clientId": "cli-1776966516267",
+      "status": "LIBERADO",
+      "notes": "INSTALAÇÃO DE 4 CAMERAS WI-FI CSI. EM ENDEREÇOS DIFERENTE.",
+      "createdAt": "2026-04-23",
+      "items": [
+        {
+          "description": "",
+          "quantity": 4,
+          "unitPrice": 0
+        }
+      ],
+      "total": 0,
+      "validity": "25/04/2026",
+      "deadline": "",
+      "id": "bud-1776970923774"
+    },
+    {
+      "id": "orc-001",
+      "number": "ORC-2026-001",
+      "clientId": "cli-1776966516267",
+      "status": "Enviado",
+      "validity": "25/04/2026",
+      "deadline": "AVISTA",
+      "notes": "INSTALAÇÃO 4 CAMERAS WI-FI CSI.\n2 NO ENDEREÇO DA CADASTRO.\n2 RUA ALISSON GERALDO DA SILVA JUNIOR, 292\n",
+      "total": 600,
+      "createdAt": "2026-04-25",
+      "items": [
+        {
+          "description": "C",
+          "quantity": 1,
+          "unitPrice": 150
+        },
+        {
+          "description": "C",
+          "quantity": 1,
+          "unitPrice": 150
+        },
+        {
+          "description": "C",
+          "quantity": 1,
+          "unitPrice": 150
+        },
+        {
+          "description": "C",
+          "quantity": 1,
+          "unitPrice": 150
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "number": "PED-2026-002",
+      "clientId": "cli-1777036186723",
+      "status": "",
+      "notes": "Serviço de manutenção e organização de cabeamento, com diagnóstico de falha na imagem de uma câmera.\n\nSerá realizado o reparo necessário. Caso seja identificada a necessidade de substituição da câmera, a cliente será previamente informada.\n\nCondições de pagamento:\n\nÀ vista: R$ 250,00 (conforme orçamento informado)\nParcelamento em até 3x no cartão, com acréscimo de juros da máquina",
+      "createdAt": "2026-04-25",
+      "items": [
+        {
+          "description": "M",
+          "quantity": 1,
+          "unitPrice": 250
+        }
+      ],
+      "total": 250,
+      "paymentMethod": "AVISTA-PIX",
+      "id": "ord-1777036420353"
+    },
+    {
+      "id": "ped-001",
+      "number": "PED-2026-001",
+      "clientId": "cli-002",
+      "status": "Aprovado",
+      "paymentMethod": "PIX + boleto",
+      "notes": "Pedido convertido a partir de orçamento aprovado.",
+      "total": 3850,
+      "createdAt": "2026-04-18",
+      "items": [
+        {
+          "description": "Controle de acesso facial",
+          "quantity": 1,
+          "unitPrice": 2650
+        },
+        {
+          "description": "Configuração e treinamento",
+          "quantity": 1,
+          "unitPrice": 1200
+        }
+      ]
+    }
+  ],
+  "warranties": [
+    {
+      "id": "gar-001",
+      "number": "GAR-2026-001",
+      "clientId": "cli-002",
+      "status": "Ativa",
+      "coverage": "Cobertura para configuração, ajustes e suporte técnico remoto.",
+      "term": "12 meses",
+      "notes": "Não cobre danos elétricos ou mau uso.",
+      "createdAt": "2026-04-18",
+      "items": [
+        {
+          "description": "Sistema de controle de acesso facial",
+          "quantity": 1,
+          "unitPrice": 0
+        }
+      ]
+    }
+  ],
+  "leads": [
+    {
+      "id": "lead-1776973881778",
+      "name": "alexandre santana",
+      "phone": "11970869983",
+      "email": "x@gmail.com",
+      "company": "TTK",
+      "service": "cameras",
+      "message": "quero instalar varias cameras",
+      "createdAt": "2026-04-23T19:51:21.778Z"
+    }
+  ]
+}

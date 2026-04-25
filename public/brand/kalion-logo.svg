@@ -1,0 +1,52 @@
+<svg width="620" height="230" viewBox="0 0 620 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g filter="url(#glow)">
+    <path d="M58 162L92 28H148L113 88L201 28H264L157 123L260 162H185L119 134L96 162H58Z" fill="url(#chrome)" stroke="#6DE4FF" stroke-opacity=".4" stroke-width="2"/>
+    <path d="M249 29H451L444 63H373L340 162H285L319 63H242L249 29Z" fill="url(#chrome)" stroke="#6DE4FF" stroke-opacity=".32" stroke-width="2"/>
+    <path d="M455 149L494 29H552L524 117H618L605 162H439L455 149Z" fill="url(#blueMetal)" stroke="#7AE7FF" stroke-opacity=".48" stroke-width="2"/>
+    <path d="M502 92L555 41" stroke="url(#circuit)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M529 104L585 49" stroke="url(#circuit)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M558 122L608 76" stroke="url(#circuit)" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="565" cy="34" r="10" fill="#69E4FF"/>
+    <circle cx="596" cy="44" r="10" fill="#69E4FF"/>
+    <circle cx="616" cy="66" r="10" fill="#69E4FF"/>
+  </g>
+  <g filter="url(#soft)">
+    <text x="58" y="212" fill="url(#title)" font-family="Arial, Helvetica, sans-serif" font-size="72" font-style="italic" font-weight="700">Kalion</text>
+    <text x="279" y="214" fill="url(#title)" font-family="Arial, Helvetica, sans-serif" font-size="26" letter-spacing="10">TECNOLOGIA</text>
+  </g>
+  <defs>
+    <linearGradient id="chrome" x1="94" y1="24" x2="475" y2="175" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCFEFF"/>
+      <stop offset=".18" stop-color="#C7D0DF"/>
+      <stop offset=".36" stop-color="#7B8598"/>
+      <stop offset=".51" stop-color="#F8FBFF"/>
+      <stop offset=".72" stop-color="#8F99AC"/>
+      <stop offset="1" stop-color="#DCE4EF"/>
+    </linearGradient>
+    <linearGradient id="blueMetal" x1="452" y1="26" x2="606" y2="166" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#27B8FF"/>
+      <stop offset=".48" stop-color="#0C74FF"/>
+      <stop offset="1" stop-color="#39D3FF"/>
+    </linearGradient>
+    <linearGradient id="circuit" x1="500" y1="40" x2="608" y2="122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F7CFF"/>
+      <stop offset="1" stop-color="#63ECFF"/>
+    </linearGradient>
+    <linearGradient id="title" x1="59" y1="160" x2="540" y2="222" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".45" stop-color="#BFCBDB"/>
+      <stop offset=".72" stop-color="#F9FCFF"/>
+      <stop offset="1" stop-color="#67DFFF"/>
+    </linearGradient>
+    <filter id="glow" x="28" y="0" width="615" height="187" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="6" result="effect1_foregroundBlur_1_2"/>
+    </filter>
+    <filter id="soft" x="42" y="142" width="521" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="1.5" result="effect1_foregroundBlur_1_2"/>
+    </filter>
+  </defs>
+</svg>

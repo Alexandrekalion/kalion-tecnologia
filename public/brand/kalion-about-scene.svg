@@ -1,0 +1,118 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="600" y1="0" x2="600" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1422"/>
+      <stop offset="1" stop-color="#040913"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#101D30" stop-opacity="0.96"/>
+      <stop offset="1" stop-color="#08111D" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#133D66"/>
+      <stop offset="0.52" stop-color="#0C2139"/>
+      <stop offset="1" stop-color="#09111D"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="600" y1="470" x2="600" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1220"/>
+      <stop offset="1" stop-color="#04080F"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(878 182) rotate(90) scale(280 420)">
+      <stop stop-color="#29D0FF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#29D0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(314 108) rotate(90) scale(220 320)">
+      <stop stop-color="#0A63FF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#0A63FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="820" rx="34" fill="url(#bg)"/>
+  <rect width="1200" height="820" rx="34" fill="url(#glowA)"/>
+  <rect width="1200" height="820" rx="34" fill="url(#glowB)"/>
+
+  <path d="M62 106H472L580 0H1190" stroke="#163553" stroke-opacity="0.8" stroke-width="3"/>
+  <path d="M-40 250H176L292 128H548" stroke="#102841" stroke-opacity="0.85" stroke-width="2"/>
+  <path d="M832 0L706 128H514" stroke="#14324E" stroke-opacity="0.85" stroke-width="2"/>
+  <path d="M1200 156H1020L930 238H780" stroke="#143A5A" stroke-opacity="0.8" stroke-width="2"/>
+
+  <rect y="466" width="1200" height="354" fill="url(#floor)"/>
+  <path d="M56 580C310 516 886 520 1134 578" stroke="#0D2237" stroke-width="2"/>
+  <path d="M12 642C292 580 940 586 1182 646" stroke="#0A1B2C" stroke-width="2"/>
+  <path d="M94 708C340 662 882 664 1110 706" stroke="#091826" stroke-width="2"/>
+
+  <path d="M118 94H1020V676H118V94Z" stroke="#2AA9E6" stroke-opacity="0.08" stroke-width="2"/>
+
+  <rect x="84" y="118" width="306" height="492" rx="24" fill="url(#wall)" stroke="#21486F" stroke-opacity="0.7"/>
+  <rect x="414" y="160" width="338" height="202" rx="22" fill="url(#wall)" stroke="#225A8D" stroke-opacity="0.62"/>
+  <rect x="780" y="124" width="324" height="248" rx="22" fill="url(#wall)" stroke="#225A8D" stroke-opacity="0.58"/>
+
+  <rect x="126" y="170" width="208" height="180" rx="18" fill="#08111C" stroke="#2D6FA7" stroke-opacity="0.58"/>
+  <rect x="126" y="372" width="208" height="198" rx="18" fill="#08111C" stroke="#1B446C" stroke-opacity="0.44"/>
+
+  <rect x="448" y="196" width="268" height="134" rx="14" fill="url(#screen)" stroke="#2F82C1" stroke-opacity="0.72"/>
+  <rect x="812" y="160" width="260" height="178" rx="16" fill="url(#screen)" stroke="#2F82C1" stroke-opacity="0.66"/>
+  <rect x="88" y="560" width="218" height="132" rx="18" fill="url(#screen)" stroke="#2F82C1" stroke-opacity="0.58"/>
+  <rect x="390" y="548" width="176" height="118" rx="16" fill="url(#screen)" stroke="#2F82C1" stroke-opacity="0.55"/>
+  <rect x="592" y="540" width="194" height="124" rx="16" fill="url(#screen)" stroke="#2F82C1" stroke-opacity="0.55"/>
+  <rect x="810" y="518" width="260" height="146" rx="18" fill="url(#screen)" stroke="#2F82C1" stroke-opacity="0.58"/>
+
+  <path d="M448 222C506 244 554 256 606 246C648 238 674 210 716 214" stroke="#4DE2FF" stroke-width="3"/>
+  <path d="M452 264H694" stroke="#2D6AA2" stroke-opacity="0.75" stroke-width="2"/>
+  <path d="M452 286H628" stroke="#2D6AA2" stroke-opacity="0.56" stroke-width="2"/>
+  <circle cx="570" cy="244" r="38" stroke="#48DEFF" stroke-opacity="0.5" stroke-width="2"/>
+  <circle cx="570" cy="244" r="12" fill="#29D0FF" fill-opacity="0.65"/>
+
+  <path d="M838 198H1024" stroke="#2D6AA2" stroke-width="2"/>
+  <path d="M838 224H984" stroke="#2D6AA2" stroke-opacity="0.72" stroke-width="2"/>
+  <path d="M838 248H954" stroke="#2D6AA2" stroke-opacity="0.56" stroke-width="2"/>
+  <path d="M850 296C900 230 962 196 1024 174" stroke="#4DE2FF" stroke-width="3"/>
+  <circle cx="1028" cy="172" r="8" fill="#29D0FF"/>
+
+  <path d="M88 548H306" stroke="#3ED8FF" stroke-opacity="0.28" stroke-width="2"/>
+  <path d="M404 564H548" stroke="#3ED8FF" stroke-opacity="0.28" stroke-width="2"/>
+  <path d="M606 556H766" stroke="#3ED8FF" stroke-opacity="0.28" stroke-width="2"/>
+  <path d="M826 532H1054" stroke="#3ED8FF" stroke-opacity="0.28" stroke-width="2"/>
+
+  <g opacity="0.82">
+    <path d="M110 584H286" stroke="#4CDDFF" stroke-width="2"/>
+    <path d="M116 604H254" stroke="#2D6AA2" stroke-width="2"/>
+    <path d="M416 584H544" stroke="#4CDDFF" stroke-width="2"/>
+    <path d="M424 604H520" stroke="#2D6AA2" stroke-width="2"/>
+    <path d="M622 576H758" stroke="#4CDDFF" stroke-width="2"/>
+    <path d="M632 596H736" stroke="#2D6AA2" stroke-width="2"/>
+    <path d="M846 548H1038" stroke="#4CDDFF" stroke-width="2"/>
+    <path d="M856 570H1004" stroke="#2D6AA2" stroke-width="2"/>
+  </g>
+
+  <image href="/brand/kalion-logo-header.png" x="108" y="168" width="248" height="172" preserveAspectRatio="xMidYMid meet"/>
+
+  <path d="M102 130L184 130" stroke="#4CDDFF" stroke-opacity="0.22" stroke-width="2"/>
+  <path d="M840 144L1082 144" stroke="#4CDDFF" stroke-opacity="0.18" stroke-width="2"/>
+
+  <path d="M462 704L536 602L612 704H462Z" fill="#08111B" stroke="#274F79" stroke-opacity="0.72"/>
+  <rect x="522" y="486" width="34" height="126" rx="15" fill="#09121B" stroke="#274F79" stroke-opacity="0.65"/>
+  <rect x="446" y="706" width="182" height="18" rx="9" fill="#09111B"/>
+
+  <g filter="url(#blurGlow)">
+    <ellipse cx="548" cy="620" rx="150" ry="28" fill="#29D0FF" fill-opacity="0.18"/>
+    <ellipse cx="944" cy="660" rx="212" ry="34" fill="#0A63FF" fill-opacity="0.2"/>
+  </g>
+
+  <path d="M200 118L286 118" stroke="#29D0FF" stroke-opacity="0.24" stroke-width="2"/>
+  <path d="M76 610L320 610" stroke="#29D0FF" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M392 648L580 648" stroke="#29D0FF" stroke-opacity="0.16" stroke-width="2"/>
+
+  <g filter="url(#soft)">
+    <path d="M388 88H1032" stroke="#29D0FF" stroke-opacity="0.12" stroke-width="8"/>
+  </g>
+
+  <path d="M112 112L364 112" stroke="#214D78" stroke-opacity="0.5" stroke-width="1.5"/>
+  <path d="M804 364L1078 364" stroke="#214D78" stroke-opacity="0.38" stroke-width="1.5"/>
+</svg>
