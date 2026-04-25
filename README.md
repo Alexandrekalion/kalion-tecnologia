@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kalion Tecnologia
 
-## Getting Started
+Site institucional e painel administrativo da Kalion Tecnologia, desenvolvido com `Next.js 16`, `React 19`, `TypeScript` e `App Router`.
 
-First, run the development server:
+## Stack
+
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS
+- jsPDF
+- JSON local como base inicial de dados
+
+## Ambientes
+
+- Site publico: `/`
+- Admin oculto: `/sistema-kalion-x9`
+
+## Execucao local
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Validacao:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run lint
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Credenciais atuais do admin
 
-## Learn More
+- Usuario: `administrador`
+- Senha: `LR1a2b3c4567@`
 
-To learn more about Next.js, take a look at the following resources:
+## Uploads e imagens em producao
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+As imagens enviadas pelo painel sao gravadas em:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `public/uploads/projects`
 
-## Deploy on Vercel
+Em producao, o ideal e servir `/uploads/` diretamente pelo Nginx.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Permissoes recomendadas no servidor:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+sudo chmod 755 /var/www/kaliontecnologia/public
+sudo chmod -R 755 /var/www/kaliontecnologia/public/uploads
+sudo chown -R www-data:www-data /var/www/kaliontecnologia/public/uploads
+```
+
+Configuracao recomendada do Nginx:
+
+```nginx
+location ^~ /uploads/ {
+    root /var/www/kaliontecnologia/public;
+    access_log off;
+    expires 30d;
+    add_header Cache-Control "public";
+    try_files $uri =404;
+}
+```
+
+Arquivo exemplo completo:
+
+- [deploy/nginx/kaliontecnologia.conf](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/deploy/nginx/kaliontecnologia.conf)
+
+## Deploy
+
+Este projeto exige ambiente com `Node.js` em producao.
+
+Fluxo resumido:
+
+```bash
+npm install
+npm run build
+pm2 start npm --name kalion -- start
+```
+
+## Documentacao tecnica
+
+- [MANUAL-TECNICO.md](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/MANUAL-TECNICO.md)
