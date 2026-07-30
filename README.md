@@ -2,6 +2,8 @@
 
 Site institucional e painel administrativo da Kalion Tecnologia, desenvolvido com `Next.js 16`, `React 19`, `TypeScript` e `App Router`.
 
+> Status: em revisao para organizacao profissional e saneamento de dados sensiveis.
+
 ## Stack
 
 - Next.js 16
@@ -15,6 +17,15 @@ Site institucional e painel administrativo da Kalion Tecnologia, desenvolvido co
 
 - Site publico: `/`
 - Admin oculto: `/sistema-kalion-x9`
+
+## Configuracao
+
+Use `.env.example` como base e defina credenciais reais somente no ambiente seguro:
+
+```bash
+ADMIN_USER=...
+ADMIN_PASSWORD=...
+```
 
 ## Execucao local
 
@@ -30,10 +41,9 @@ npm run lint
 npm run build
 ```
 
-## Credenciais atuais do admin
+## Seguranca
 
-- Usuario: `administrador`
-- Senha: `LR1a2b3c4567@`
+Nao versionar `.env`, senhas, tokens, dados reais de clientes, leads, orcamentos, uploads ou backups. Veja [SECURITY.md](SECURITY.md) e [docs/security-audit.md](docs/security-audit.md).
 
 ## Uploads e imagens em producao
 
@@ -65,7 +75,7 @@ location ^~ /uploads/ {
 
 Arquivo exemplo completo:
 
-- [deploy/nginx/kaliontecnologia.conf](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/deploy/nginx/kaliontecnologia.conf)
+- [deploy/nginx/kaliontecnologia.conf](deploy/nginx/kaliontecnologia.conf)
 
 ## Deploy
 
@@ -81,4 +91,8 @@ pm2 start npm --name kalion -- start
 
 ## Documentacao tecnica
 
-- [MANUAL-TECNICO.md](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/MANUAL-TECNICO.md)
+- [MANUAL-TECNICO.md](MANUAL-TECNICO.md)
+
+## Licenca
+
+Projeto proprietario. Todos os direitos reservados.
