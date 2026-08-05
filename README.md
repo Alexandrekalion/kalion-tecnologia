@@ -23,7 +23,7 @@ A aplicacao atende a necessidade de uma presenca digital profissional para a Kal
 
 ### Funcionalidades Em Desenvolvimento
 
-- Funcionalidades administrativas aparecem em componentes e bibliotecas internas do projeto.
+- Funcionalidades administrativas aparecem em componentes e bibliotecas do projeto.
 
 ### Funcionalidades Planejadas
 
@@ -70,6 +70,6 @@ Projeto institucional em desenvolvimento/manutencao. O status de publicacao em p
 
 ## Autor
 
-Desenvolvido por Michele Santana -- Kalion Tecnologia
+Desenvolvido por Michele Santana — Kalion Tecnologia
 
 Perfil profissional: https://github.com/Tr3mbolon4
