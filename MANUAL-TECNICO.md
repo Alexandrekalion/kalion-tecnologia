@@ -33,16 +33,14 @@
 - `/sistema-kalion-x9/painel/configuracoes`
 - `/sistema-kalion-x9/painel/backup`
 
-## Credenciais administrativas
+## Credenciais atuais
 
-As credenciais devem ser definidas por variaveis de ambiente:
-
-- `ADMIN_USER`
-- `ADMIN_PASSWORD`
+- Usuario: `administrador`
+- Senha: `LR1a2b3c4567@`
 
 Arquivo base:
 
-- [src/lib/auth.ts](src/lib/auth.ts)
+- [src/lib/auth.ts](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/lib/auth.ts)
 
 ## Instalacao local
 
@@ -62,7 +60,7 @@ npm run build
 
 O sistema usa um banco local em JSON:
 
-- [data/kalion-db.json](data/kalion-db.json)
+- [data/kalion-db.json](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/data/kalion-db.json)
 
 Colecoes atuais:
 
@@ -80,21 +78,21 @@ Colecoes atuais:
 
 Pagina:
 
-- [src/app/sistema-kalion-x9/painel/configuracoes/page.tsx](src/app/sistema-kalion-x9/painel/configuracoes/page.tsx)
+- [src/app/sistema-kalion-x9/painel/configuracoes/page.tsx](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/app/sistema-kalion-x9/painel/configuracoes/page.tsx)
 
 Salva por:
 
-- [src/app/api/admin/settings/route.ts](src/app/api/admin/settings/route.ts)
+- [src/app/api/admin/settings/route.ts](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/app/api/admin/settings/route.ts)
 
 Reflete no site publico por:
 
-- [src/lib/public-settings.ts](src/lib/public-settings.ts)
+- [src/lib/public-settings.ts](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/lib/public-settings.ts)
 
 ## Gestao de projetos
 
 Pagina admin:
 
-- [src/app/sistema-kalion-x9/painel/projetos/page.tsx](src/app/sistema-kalion-x9/painel/projetos/page.tsx)
+- [src/app/sistema-kalion-x9/painel/projetos/page.tsx](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/app/sistema-kalion-x9/painel/projetos/page.tsx)
 
 Campos:
 
@@ -110,7 +108,7 @@ Campos:
 
 Upload:
 
-- [src/app/api/admin/upload/route.ts](src/app/api/admin/upload/route.ts)
+- [src/app/api/admin/upload/route.ts](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/app/api/admin/upload/route.ts)
 
 Arquivos enviados:
 
@@ -120,14 +118,14 @@ Arquivos enviados:
 
 Rotas genericas:
 
-- [src/app/api/admin/[resource]/route.ts](src/app/api/admin/[resource]/route.ts)
-- [src/app/api/admin/[resource]/[id]/route.ts](src/app/api/admin/[resource]/[id]/route.ts)
+- [src/app/api/admin/[resource]/route.ts](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/app/api/admin/[resource]/route.ts)
+- [src/app/api/admin/[resource]/[id]/route.ts](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/app/api/admin/[resource]/[id]/route.ts)
 
 ## PDFs
 
 Componente principal:
 
-- [src/components/admin/document-manager.tsx](src/components/admin/document-manager.tsx)
+- [src/components/admin/document-manager.tsx](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/components/admin/document-manager.tsx)
 
 Tipos:
 
@@ -137,8 +135,8 @@ Tipos:
 
 ## Formulario de contato
 
-- [src/components/contact-form.tsx](src/components/contact-form.tsx)
-- [src/app/api/contact/route.ts](src/app/api/contact/route.ts)
+- [src/components/contact-form.tsx](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/components/contact-form.tsx)
+- [src/app/api/contact/route.ts](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/app/api/contact/route.ts)
 
 SMTP esperado:
 
@@ -152,21 +150,21 @@ SMTP_FROM=
 
 ## Protecao da area admin
 
-- [src/lib/auth.ts](src/lib/auth.ts)
-- [src/proxy.ts](src/proxy.ts)
-- [src/app/api/admin/login/route.ts](src/app/api/admin/login/route.ts)
-- [src/app/api/admin/logout/route.ts](src/app/api/admin/logout/route.ts)
+- [src/lib/auth.ts](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/lib/auth.ts)
+- [src/proxy.ts](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/proxy.ts)
+- [src/app/api/admin/login/route.ts](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/app/api/admin/login/route.ts)
+- [src/app/api/admin/logout/route.ts](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/app/api/admin/logout/route.ts)
 
 ## Backup
 
 Backup atual:
 
-- copiar [data/kalion-db.json](data/kalion-db.json)
+- copiar [data/kalion-db.json](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/data/kalion-db.json)
 
 ## SEO
 
-- [src/app/robots.ts](src/app/robots.ts)
-- [src/app/sitemap.ts](src/app/sitemap.ts)
+- [src/app/robots.ts](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/app/robots.ts)
+- [src/app/sitemap.ts](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/app/sitemap.ts)
 
 ## Publicacao
 
@@ -231,15 +229,15 @@ Observacao importante:
 
 Arquivo exemplo:
 
-- [deploy/nginx/kaliontecnologia.conf](deploy/nginx/kaliontecnologia.conf)
+- [deploy/nginx/kaliontecnologia.conf](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/deploy/nginx/kaliontecnologia.conf)
 
 ## Pastas importantes
 
-- [src/app](src/app)
-- [src/components](src/components)
-- [src/lib](src/lib)
-- [public](public)
-- [data](data)
+- [src/app](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/app)
+- [src/components](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/components)
+- [src/lib](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/src/lib)
+- [public](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/public)
+- [data](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/data)
 
 ## Melhorias futuras recomendadas
 

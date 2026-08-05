@@ -60,10 +60,10 @@ export function AdminShell({
           <div className="dashboard-block mt-8 rounded-[2rem] border border-cyan-400/15 bg-[#091221] p-5 text-sm text-slate-300">
             <Image src="/brand/kalion-logo-header.png" alt="Kalion Tecnologia" width={340} height={250} className="h-auto w-28" />
             <p className="mt-4">Kalion Tecnologia</p>
-            <p className="mt-2">CNPJ: 00.000.000/0000-00</p>
-            <p className="mt-1">contato@exemplo.com</p>
-            <p className="mt-1">(11) 90000-0000</p>
-            <p className="mt-1">Sao Jose dos Campos - SP</p>
+            <p className="mt-2">CNPJ: 32.123.456/0001-90</p>
+            <p className="mt-1">kaliontecnologia@kaliontecnologia.com.br</p>
+            <p className="mt-1">(41) 99999-9999</p>
+            <p className="mt-1">Curitiba - PR</p>
           </div>
         </aside>
 

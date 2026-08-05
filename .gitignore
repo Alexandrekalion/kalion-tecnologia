@@ -32,20 +32,6 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
-!.env.example
-
-# local runtime data and secrets
-data/*.local.json
-data/backups/
-public/uploads/
-*token.json*
-*credentials.json*
-*.key
-*.crt
-*.sqlite
-*.sqlite3
-*.db
-*.bak
 
 # vercel
 .vercel
