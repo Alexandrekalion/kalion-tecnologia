@@ -1,84 +1,75 @@
 # Kalion Tecnologia
 
-Site institucional e painel administrativo da Kalion Tecnologia, desenvolvido com `Next.js 16`, `React 19`, `TypeScript` e `App Router`.
+Site institucional e painel administrativo da Kalion Tecnologia, com estrutura em Next.js, React e TypeScript.
 
-## Stack
+## Visao Geral
 
-- Next.js 16
-- React 19
+O projeto apresenta uma base web para divulgar servicos, organizar conteudo institucional e administrar informacoes por meio de componentes de painel. O repositorio possui estrutura moderna de aplicacao web, com dados locais e componentes reutilizaveis.
+
+## Problema Resolvido
+
+A aplicacao atende a necessidade de uma presenca digital profissional para a Kalion Tecnologia, reunindo apresentacao institucional, conteudo de servicos e area administrativa em um unico projeto.
+
+## Principais Funcionalidades
+
+### Funcionalidades Disponiveis
+
+- Site institucional.
+- Componentes React com TypeScript.
+- Estrutura de painel administrativo.
+- Dados locais para conteudo do site.
+- Layout responsivo.
+- Organizacao de paginas e componentes.
+
+### Funcionalidades Em Desenvolvimento
+
+- Funcionalidades administrativas aparecem em componentes e bibliotecas do projeto.
+
+### Funcionalidades Planejadas
+
+- Informacao nao confirmada no conteudo atual do repositorio.
+
+## Como Funciona
+
+```text
+Visitante acessa o site
+-> navega pelas paginas institucionais
+-> conteudos sao carregados pela aplicacao Next.js
+-> componentes exibem informacoes da Kalion Tecnologia
+-> area administrativa organiza dados do projeto
+```
+
+## Tecnologias Utilizadas
+
 - TypeScript
+- React
+- Next.js
 - Tailwind CSS
-- jsPDF
-- JSON local como base inicial de dados
+- Node.js
 
-## Ambientes
+## Arquitetura
 
-- Site publico: `/`
-- Admin oculto: `/sistema-kalion-x9`
-
-## Execucao local
-
-```bash
-npm install
-npm run dev
+```mermaid
+flowchart LR
+    Visitante["Visitante"] --> Site["Next.js"]
+    Site --> Componentes["Componentes React"]
+    Site --> Dados["Dados locais"]
+    Admin["Area administrativa"] --> Dados
 ```
 
-Validacao:
+## Estrutura Do Projeto
 
-```bash
-npm run lint
-npm run build
-```
+- `src/`: codigo da aplicacao, componentes e bibliotecas.
+- `data/`: base local de conteudo.
+- `public/`: arquivos publicos.
+- Arquivos de configuracao do Next.js e TypeScript.
 
-## Credenciais atuais do admin
+## Status
 
-- Usuario: `administrador`
-- Senha: `LR1a2b3c4567@`
+Projeto institucional em desenvolvimento/manutencao. O status de publicacao em producao nao esta confirmado no conteudo atual do repositorio.
 
-## Uploads e imagens em producao
+## Autor
 
-As imagens enviadas pelo painel sao gravadas em:
+Desenvolvido por Michele Santana — Kalion Tecnologia
 
-- `public/uploads/projects`
-
-Em producao, o ideal e servir `/uploads/` diretamente pelo Nginx.
-
-Permissoes recomendadas no servidor:
-
-```bash
-sudo chmod 755 /var/www/kaliontecnologia/public
-sudo chmod -R 755 /var/www/kaliontecnologia/public/uploads
-sudo chown -R www-data:www-data /var/www/kaliontecnologia/public/uploads
-```
-
-Configuracao recomendada do Nginx:
-
-```nginx
-location ^~ /uploads/ {
-    root /var/www/kaliontecnologia/public;
-    access_log off;
-    expires 30d;
-    add_header Cache-Control "public";
-    try_files $uri =404;
-}
-```
-
-Arquivo exemplo completo:
-
-- [deploy/nginx/kaliontecnologia.conf](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/deploy/nginx/kaliontecnologia.conf)
-
-## Deploy
-
-Este projeto exige ambiente com `Node.js` em producao.
-
-Fluxo resumido:
-
-```bash
-npm install
-npm run build
-pm2 start npm --name kalion -- start
-```
-
-## Documentacao tecnica
-
-- [MANUAL-TECNICO.md](C:/Users/alexandre_santos/Documents/kalion-tecnologia-02/MANUAL-TECNICO.md)
+Perfil profissional: https://github.com/Tr3mbolon4
